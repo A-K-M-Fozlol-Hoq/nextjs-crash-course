@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <title>Hello title</title>
       </Head>
-      Welcome to next js
+      <h1>Welcome to next js</h1>
     </div>
   )
 }
