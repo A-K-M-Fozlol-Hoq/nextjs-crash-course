@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import ArticleList from '../components/ArticleList';
 // import styles from '../styles/Home.module.css'
 
 export default function Home({articles}) {
@@ -9,7 +10,7 @@ export default function Home({articles}) {
       <Head>
         <title>Hello title</title>
       </Head>
-      <h1>Welcome to next js</h1>
+      <ArticleList articles={articles}></ArticleList>
     </div>
   )
 }
