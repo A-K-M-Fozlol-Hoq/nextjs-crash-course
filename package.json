@@ -4,7 +4,7 @@
     "scripts": {
       "lint": "next lint",
       "dev": "next dev",
-      "build": "next build && next export",
+      "build": "next build",
       "start": "next start -p $PORT",
       "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm run build"
     },
